@@ -1,0 +1,19 @@
+# curl -X GET "https://api.cloudflare.com/client/v4/zones/cd7d0123e3012345da9420df9514dad0"
+#
+#-H "Content-Type:application/json"
+#
+#-H "Authorization: Bearer 1234567893feefc5f0q5000bfo0c38d90bbeb"
+GET https://api.cloudflare.com/client/v4/zones/cd7d0123e3012345da9420df9514dad0
+Authorization: Bearer 1234567893feefc5f0q5000bfo0c38d90bbeb
+Content-Type: application/json
+
+###
+echo "# durieux-gaming" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MickDurieux/durieux-gaming.git
+git push -u origin main
+
+###
